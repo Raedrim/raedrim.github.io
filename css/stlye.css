@@ -1,7 +1,7 @@
 body
 {
-    background-color: gainsboro;
-    overflow-y: scroll;
+    background-color: #c8d8e4;
+    
 }
 
 /* timetable css */
@@ -30,27 +30,45 @@ body
 }
 /* end of timetable css */
 
+/*CAROUSEL CSS*/
 .carousel, img{
     height: 100%;
     width: auto;
 }
 
+.classRow
+{
+    padding-top: 20rem;
+}
+
+
+.firstRow{
+    height: 40rem;
+}
 
 /*Setting up website colors*/
 .rightSide
 {
     color: #f2f2f2;   
-    background-color: #2b6777;    
+    background-color:#2b6777;    
     
     
+}
+.btn-primary
+{
+    background-color: #f2f2f2  !important;    
+    color: #2b6777!important;  
 }
 .rightSide h1
 {
     color: white;
+      
 }
 .leftSide
 {
     background-color: #c8d8e4;
+    padding-right: 0px;
+    margin-right: 0px;
 }
 
 
@@ -68,3 +86,41 @@ body
 .navbar-nav a:hover {
     background-color: lightsteelblue;
 }
+
+#timetable {
+    background-color: #52ab98;
+}
+
+#timetable a {
+    color: #f2f2f2 !important;
+}
+
+#timetable a:hover {
+    background-color: #f2f2f2;
+    color: #52ab98 !important
+}
+
+.navbar {
+    background-color: #ffffff !important;
+}
+
+.logo {
+    display: block;
+    max-width: 10%;
+    max-height: 10%;
+    height: auto;
+}
+/*CLOSE NAVBAR*/
+
+/*FOOTER*/
+.footer {
+    width: 100%;
+    height : 3.5rem !important;
+    display: inline-block;
+}
+
+.footer-icons {
+    text-decoration: none;
+    color: black;
+}
+/*CLOSE FOOTER*/
