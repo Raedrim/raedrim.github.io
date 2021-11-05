@@ -1,89 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VIA Homepage</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/stlye.css">
-    <link rel="icon" href="images/32443.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/stlye.css" />
+    <link rel="icon" href="images/32443.ico" />
     <!--Font Awsome for icons-->
-    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="css/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!--START NAVBAR-->
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MainNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand active mx-5" href="index.html">VIA</a>
-            <div class="collapse navbar-collapse" id="MainNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item mx-5"><a class="nav-link" href="dma.html">Discrete Mathematics and
-                            Algorithms</a>
-                    </li>
-                    <li class="nav-item mx-5"><a class="nav-link" href="rwd.html">Responsive Web Design</a></li>
-                    <li class="nav-item mx-5"><a class="nav-link" href="sdj.html">Software Development in Java</a></li>
-                    <li class="nav-item mx-5"><a class="nav-link" href="timetable.html">Timetable</a></li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#MainNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand active mx-5" href="index.html">VIA</a>
+        <div class="collapse navbar-collapse" id="MainNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-5">
+              <a class="nav-link" href="dma.html"
+                >Discrete Mathematics and Algorithms</a
+              >
+            </li>
+            <li class="nav-item mx-5">
+              <a class="nav-link" href="rwd.html">Responsive Web Design</a>
+            </li>
+            <li class="nav-item mx-5">
+              <a class="nav-link" href="sdj.html"
+                >Software Development in Java</a
+              >
+            </li>
+            <li class="nav-item mx-5">
+              <a class="nav-link" href="timetable.html">Timetable</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <!--FINISH NAVBAR-->
 
     <div class="row">
-        <!--Left side of webpage-->
-        <div class="col-lg-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum accusamus vitae eveniet, sit reiciendis
-            voluptatem dolorem error repellat dolores vero, deserunt molestias. Quod sequi voluptas harum nesciunt
-            dolorum deleniti nobis?
+      <!--Left side of webpage-->
+      <div class="col-lg-6 rightSide">
+        <div class="welcomeText">
+          <h1>Welcome to the VIA website!</h1>
+          <p>
+            This is the website that we created for showcasing our timetable
+            application, finding information about the group that made the
+            website ,searching for hidden easter eggs, and getting some
+            information about the courses at VIA. Get around the site using our
+            modern and <i>responsive</i> navigation bar, or just click the
+            button to go to the timetable!
+          </p>
+
+          <!--TODO Javascript here for final handin-->
+          <a
+            href="timetable.html"
+            class="btn btn-primary btn-lg active"
+            role="button"
+            aria-pressed="true"
+            >Open the Timetable!</a
+          >
         </div>
+      </div>
 
-        <!--Right side of webpage-->
-        <!--Carousel start here-->
+      <!--Right side of webpage-->
+      <!--Carousel start here-->
 
-        <div class="col-lg-6">
-            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active"><img class="d-block rounded mx-auto img-fluid" src="images/1.jpg"></div>
-                    <div class="carousel-item"><img class="d-block rounded mx-auto img-fluid" src="images/2.jpg"></div>
-                    <div class="carousel-item"><img class="d-block rounded mx-auto img-fluid" src="images/3.jpg"></div>
-                </div>
-
-                <div class="carousel-indicators">
-                    <button data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></button>
-                    <button data-bs-target="#mycarousel" data-bs-slide-to="1"></button>
-                    <button data-bs-target="#mycarousel" data-bs-slide-to="2"></button>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+      <div class="col-lg-6 leftSide">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block rounded mx-auto img-fluid"
+                src="images/1.jpg"
+              />
             </div>
+            <div class="carousel-item">
+              <img
+                class="d-block rounded mx-auto img-fluid"
+                src="images/2.jpg"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block rounded mx-auto img-fluid"
+                src="images/3.jpg"
+              />
+            </div>
+          </div>
+
+          <div class="carousel-indicators">
+            <button
+              data-bs-target="#mycarousel"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button data-bs-target="#mycarousel" data-bs-slide-to="1"></button>
+            <button data-bs-target="#mycarousel" data-bs-slide-to="2"></button>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+      </div>
 
-        <!--Carousel end-->
-
+      <!--Carousel end-->
     </div>
 
     <!--Footer start-->
     <footer class="footer mt-auto py-3 bg-light fixed-bottom">
-        <div class="container">
-            <span class="text-muted">Place sticky footer content here.</span>
-        </div>
+      <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+      </div>
     </footer>
 
     <!--Footer end-->
     <script src="js/bootstrap.bundle.min.js"></script>
-</body>
-
+  </body>
 </html>
