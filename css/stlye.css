@@ -1,0 +1,51 @@
+body
+{
+    background-color: gainsboro;
+    overflow-y: scroll;
+}
+
+/* timetable css */
+#tableDiv table{
+    width: 90%;
+    height: 70%;
+    position: absolute;
+    left:5%;
+    bottom: 0;
+    table-layout: fixed;
+}
+#timetableTable tr td{
+    height: 100px;
+}
+.tableContent a{
+    float: right;
+}
+.tableContent{
+    width: auto;
+    height: 20%;
+}
+.tableHeaderCell{
+    text-align: center;
+    line-height: 1;
+    vertical-align: middle;
+}
+/* end of timetable css */
+
+.carousel, img{
+    height: 100%;
+    width: auto;
+}
+
+/*Css for the Contact page*/
+.contact
+{
+   text-align: center;
+}
+  
+
+/*NAVBAR*/
+.navbar-nav .active a {
+    background-color: lightsteelblue;
+}
+.navbar-nav a:hover {
+    background-color: lightsteelblue;
+}
